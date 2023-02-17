@@ -119,7 +119,7 @@ function App() {
           resources={[
             {
 
-              name: "property",
+              name: "properties",
               list: AllProperties,
               show: PropertyDetails,
               create: CreateProperty,
@@ -128,20 +128,20 @@ function App() {
 
             },
             {
-              name: "agent",
+              name: "agents",
               list: Agents,
               show: AgentProfile,
               icon: <PeopleAltOutlined />
 
             },
             {
-              name: "review",
+              name: "reviews",
               list: Home,
               icon: <StarOutlineRounded />
 
             },
             {
-              name: "message",
+              name: "messages",
               list: Home,
               icon: <ChatBubbleOutline />
 
