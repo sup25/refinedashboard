@@ -224,4 +224,4 @@ const AllProperties = () => {
     );
 };
 
-export default AllProperties
+export default AllProperties;
